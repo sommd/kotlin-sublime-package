@@ -1,12 +1,11 @@
 {
-    // General
     "name": "kotlin-vscode",
     "displayName": "Kotlin",
     "description": "Kotlin support for Visual Studio Code",
     "version": "0.0.1",
     "publisher": "sommd",
-    // Gallery
-    "icon": "./icon_Kotlin.svg",
+    
+    "icon": "icon_Kotlin.svg",
     "galleryBanner": {
         "color": "#ff8900",
         "theme": "light"
@@ -14,7 +13,6 @@
     "categories": [
         "Languages"
     ],
-    // Links
     "homepage": "https://github.com/sommd/kotlin-vscode/blob/master/README.md",
     "bugs": {
         "url": "https://github.com/sommd/kotlin-vscode/issues"
@@ -23,9 +21,8 @@
         "type": "git",
         "url": "https://github.com/sommd/kotlin-vscode.git"
     },
-    // License
     "license": "SEE LICENSE IN LICENSE",
-    // Extension
+    
     "engines": {
         "vscode": "^1.5.0"
     },
@@ -44,7 +41,7 @@
         "grammars": [{
             "language": "kotlin",
             "scopeName": "source.Kotlin",
-            "path": "./syntaxes/Kotlin.tmLanguage"
+            "path": "syntaxes/Kotlin.tmLanguage"
         }]
     }
 }
