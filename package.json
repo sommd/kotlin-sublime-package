@@ -2,7 +2,7 @@
     "name": "kotlin-vscode",
     "displayName": "Kotlin",
     "description": "Kotlin support for Visual Studio Code",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "publisher": "sommd",
     
     "icon": "icon_Kotlin.svg",

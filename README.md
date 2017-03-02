@@ -1,6 +1,6 @@
 ![Kotlin logo](logo_Kotlin.svg)
 
-# Kotlin Visual Code Support
+# Kotlin Visual Studio Code Support
 
 ### Kotlin support for Visual Studio Code
 
