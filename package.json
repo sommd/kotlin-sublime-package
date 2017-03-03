@@ -11,7 +11,16 @@
         "theme": "light"
     },
     "categories": [
-        "Languages"
+        "Languages", "Snippets"
+    ],
+    "keywords": [
+        "kotlin",
+        "kt",
+        "kts",
+        "snippets",
+        "syntax",
+        "grammar",
+        "language"
     ],
     "homepage": "https://github.com/sommd/kotlin-vscode/blob/master/README.md",
     "bugs": {
@@ -26,11 +35,6 @@
     "engines": {
         "vscode": "^1.5.0"
     },
-    "keywords": [
-        "kotlin",
-        "kt",
-        "kts"
-    ],
     "contributes": {
         "languages": [{
             "id": "kotlin",
@@ -42,6 +46,12 @@
             "language": "kotlin",
             "scopeName": "source.Kotlin",
             "path": "syntaxes/Kotlin.tmLanguage"
-        }]
+        }],
+        "snippets": [
+            {
+                "language": "kotlin",
+                "path": "snippets/kotlin.json"
+            }
+        ]
     }
 }

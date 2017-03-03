@@ -1,0 +1,199 @@
+// Snippets from https://github.com/JetBrains/kotlin/blob/master/idea/resources/liveTemplates/Kotlin.xml
+{
+	"main": {
+		"prefix": "main",
+		"body": [
+			"fun main(args: Array<string>) {",
+			"\t$0",
+			"}"
+		],
+		"description": "main() function"
+	},
+	"psvm": {
+		"prefix": "psvm",
+		"body": [
+			"fun main(args: Array<string>) {",
+			"\t$0",
+			"}"
+		],
+		"description": "main() function"
+	},
+	"maino": {
+		"prefix": "maino",
+		"body": [
+			"@JvmStatic",
+			"fun main(args: Array<string>) {",
+			"\t$0",
+			"}"
+		],
+		"description": "main() function"
+	},
+	"psvmo": {
+		"prefix": "psvmo",
+		"body": [
+			"@JvmStatic",
+			"fun main(args: Array<string>) {",
+			"\t$0",
+			"}"
+		],
+		"description": "main() function"
+	},
+	
+	"sout": {
+		"prefix": "sout",
+		"body": "println($0)",
+		"description": "Prints a string to System.out"
+	},
+	"serr": {
+		"prefix": "serr",
+		"body": "System.err.println($0)",
+		"description": "Prints a string to System.err"
+	},
+	"soutv": {
+		"prefix": "soutv",
+		"body": "println(\"${1:name} = $${1:name}\")",
+		"description": "Prints a value to System.out"
+	},
+	
+	"iter": {
+		"prefix": "iter",
+		"body": [
+			"for (${1:value} in ${2:iterable}) {",
+			"\t$0",
+			"}"
+		],
+		"description": "Iterate over elements of iterable (for-in loop)"
+	},
+	
+	"ifn": {
+		"prefix": "ifn",
+		"body": [
+			"if (${1:value} == null) {",
+			"\t$0",
+			"}"
+		],
+		"description": "Inserts 'if null' expression"
+	},
+	"inn": {
+		"prefix": "inn",
+		"body": [
+			"if (${1:value} != null) {",
+			"\t$0",
+			"}"
+		],
+		"description": "Inserts 'if not null' expression"
+	},
+	
+	"void": {
+		"prefix": "void",
+		"body": [
+			"fun ${1:name}(${2}) {",
+			"\t$0",
+			"}"
+		],
+		"description": "Function returning nothing"
+	},
+	"fun0": {
+		"prefix": "fun0",
+		"body": [
+			"fun ${1:name}(): ${2:return} {",
+			"\t$0",
+			"}"
+		],
+		"description": "Function with no parameters"
+	},
+	"fun1": {
+		"prefix": "fun1",
+		"body": [
+			"fun ${1:name}(${2:param}: ${3:type}): ${4:return} {",
+			"\t$0",
+			"}"
+		],
+		"description": "Function with one parameter"
+	},
+	"fun2": {
+		"prefix": "fun2",
+		"body": [
+			"fun ${1:name}(${2:param}: ${3:type}, ${4:param}: ${5:type}): ${6:return} {",
+			"\t$0",
+			"}"
+		],
+		"description": "Function with two parameters"
+	},
+	
+	"interface": {
+		"prefix": "interface",
+		"body": [
+			"interface ${1:name} {",
+			"\t$0",
+			"}"
+		],
+		"description": "Interface"
+	},
+	"singleton": {
+		"prefix": "singleton",
+		"body": [
+			"object ${1:name} {",
+			"\t$0",
+			"}"
+		],
+		"description": "Singleton"
+	},
+	
+	"closure": {
+		"prefix": "closure",
+		"body": "{ ${1:param} -> ${1} }",
+		"description": "Closure (function without name)"
+	},
+	"anonymous": {
+		"prefix": "anonymous",
+		"body": [
+			"object: ${1:super} {",
+			"\t$0",
+			"}"
+		],
+		"description": "Anonymous class"
+	},
+	"object": {
+		"prefix": "object",
+		"body": [
+			"object: ${1:super} {",
+			"\t$0",
+			"}"
+		],
+		"description": "Anonymous class"
+	},
+	
+	"exfun": {
+		"prefix": "exfun",
+		"body": [
+			"fun ${1:receiver}.${2:name}(${3}): ${4:returns} {",
+			"\t$0",
+			"}"
+		],
+		"description": "Extension function"
+	},
+	"exval": {
+		"prefix": "exval",
+		"body": [
+			"val ${1:receiver}.${2:name}: ${3:type}",
+			"\tget() {",
+			"\t\t$0",
+			"\t}"
+		],
+		"description": "Extension read-only property"
+	},
+	"exvar": {
+		"prefix": "exvar",
+		"body": [
+			"var ${1:receiver}.${2:name}: ${3:type}",
+			"\tget() {",
+			"\t\t$0",
+			"\t}",
+			"\tset (value) {",
+			"\t\t",
+			"\t}"
+		],
+		"description": "Extension read-write property"
+	}
+}
