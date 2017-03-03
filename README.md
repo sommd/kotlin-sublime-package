@@ -1,4 +1,4 @@
-![Kotlin logo](logo_Kotlin.svg)
+![Kotlin logo](logo_Kotlin.png)
 
 # Kotlin Visual Studio Code Support
 
