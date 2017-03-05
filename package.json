@@ -2,7 +2,7 @@
     "name": "kotlin-vscode",
     "displayName": "Kotlin",
     "description": "Kotlin support for Visual Studio Code",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "publisher": "sommd",
     
     "icon": "icon_Kotlin.svg",
@@ -16,11 +16,7 @@
     "keywords": [
         "kotlin",
         "kt",
-        "kts",
-        "snippets",
-        "syntax",
-        "grammar",
-        "language"
+        "kts"
     ],
     "homepage": "https://github.com/sommd/kotlin-vscode/blob/master/README.md",
     "bugs": {
